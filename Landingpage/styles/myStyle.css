@@ -1,0 +1,85 @@
+body 
+{
+    direction:rtl;
+    font-family:Arial;
+    background-color: rgb(0,9,71);
+}
+
+article{background-color:rgb(0,9,71); }
+
+h1{
+   color: white;
+   font-size:40px;
+   font-weight:300;
+   text-align:center;
+}
+
+strong{
+    color:rgb(255,215,0)
+}
+
+#description{
+    height:500px;
+    background-image:url('../imgaes/background image.jpg');
+    background-size:cover
+
+}
+
+p{
+    width:900px;
+    margin:auto;
+    padding: 30px;
+    background-color: rgba(255,255,255,0.8)
+    }
+
+#details{
+background-color:white;
+height:150px;
+
+}
+
+form{
+    display:inline-block;
+     font-size:20px;
+     margin-right:50px;
+     padding:20px;
+          }
+
+input{
+    
+    margin:10px;
+    border:black, solid, 1px;
+    border-radius:3px;
+    width:150px;
+    height:40px;
+}
+
+input[type=submit]{
+    background-color:rgb(255,215,0);
+    width:100px;
+    height:50px;
+    font-size:20px;
+}
+
+#name, #number, #email{
+    width:150px;
+}
+
+#enter{
+    display:inline-block;
+    margin-right:110px;
+}
+
+a:link{  
+    height:75px;
+    width:110px;
+    background-image:url("../imgaes/hit logo.jpg");
+    background-size:cover;
+    float:left;
+    margin:20px;
+    display:inline-block;
+}
+a:hover{
+    background-image:url("../imgaes/hover.jpg");
+}
+
